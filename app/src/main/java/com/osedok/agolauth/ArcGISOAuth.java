@@ -28,7 +28,7 @@ import java.net.URL;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * Created by bienieka on 18/02/2016.
+ * Created by osedok on 18/02/2016.
  */
 public class ArcGISOAuth extends AppCompatActivity {
 
@@ -38,7 +38,7 @@ public class ArcGISOAuth extends AppCompatActivity {
         private static final String REDIRECT_URI = "urn:ietf:wg:oauth:2.0:oob";
         // OAuth2 client_id = APPID
         //PLease set your own client ID here
-        private static final String CLIENT_ID = "BHGHGYGJO";
+        private static final String CLIENT_ID = "XYAYGYGYAG";
         String username;
         String access_token;
         String refresh_token;
@@ -81,6 +81,7 @@ public class ArcGISOAuth extends AppCompatActivity {
                             }
                             Intent returnIntent = new Intent();
                             returnIntent.putExtra("TOKEN", access_token);
+                            returnIntent.putExtra("USERNAME", username);
                             setResult(Activity.RESULT_OK, returnIntent);
                             finish();
                         }

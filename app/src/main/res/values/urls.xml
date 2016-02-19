@@ -1,0 +1,3 @@
+<resources>
+    <string name="agol_content_url">http://www.arcgis.com/sharing/rest/content/users/{USER_NAME}?f=json&amp;token={VALID_TOKEN}</string>
+</resources>

@@ -1,0 +1,7 @@
+http://maps.esri.com/AGSJS_Demos/templates/ItemInfo/index.html - useful tool for investigating Network traffic.
+
+
+http://www.arcgis.com/sharing/rest/content/users/{USER_NAME}?f=json&token={VALID_TOKEN}
+
+Replace {USER_NAME} with valid AGOL user name e.g. mapitgis
+Replace {VALID_TOKEN} with valid user token
